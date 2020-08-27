@@ -1,0 +1,22 @@
+{
+	"http": {
+		"port": 446,
+		"port": 81,
+		"cert1": "/aim/ca/aliconnect/certs/192.168.0.201.crt",
+		"key1": "/aim/ca/aliconnect/private/192.168.0.201.key"
+	},
+	"wsc": {
+		"url": "wss://aliconnect.nl:444"
+	},
+	"client_id": "5ebabb5e-0a5b-4c87-a970-1919a4680fb1",
+	"secret": "secret.json",
+	"aud": 3549983,
+	"intervalSystemAttributes": 60000,
+	"timeWaitAfterTimeout": 60000,
+	"acmsHartbeatTimeout": 60000,
+	"acmsHartbeatID": 3563537,
+	"acmsHartbeatMaxCount": 100,
+	"freeMemID": 3563535,
+	"freeDiskSpaceID": 3563536,
+	"timeSyncID": 3563538
+}

@@ -1,0 +1,2347 @@
+{
+    "@context": "https://schiphol.aliconnect.nl/api/$metadata#/System/$entity",
+    "@id": "https://schiphol.aliconnect.nl/api/dms_Location(3549983)",
+    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfTG9jYXRpb24oMzU0OTk4Myk=",
+    "schema": "dms_Location",
+    "Children": [
+        {
+            "@id": "https://schiphol.aliconnect.nl/api/Modbus Connector(3563194)",
+            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9Nb2RidXMgQ29ubmVjdG9yKDM1NjMxOTQp",
+            "schema": "Modbus Connector",
+            "Level": 1,
+            "ChildIndex": 0
+        },
+        {
+            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562885)",
+            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4NSk=",
+            "schema": "dms_Group",
+            "Level": 1,
+            "ChildIndex": 1,
+            "Children": [
+                {
+                    "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562886)",
+                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4Nik=",
+                    "schema": "dms_Group",
+                    "Level": 2,
+                    "ChildIndex": 0,
+                    "Children": [
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562910)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MjkxMCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 0,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562924)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyNCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562911)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkxMSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562922)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyMik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562925)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyNSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562923)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyMyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 4
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562926)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MjkyNik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 1,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562930)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzMCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562929)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyOSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562927)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyNyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562931)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzMSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562928)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkyOCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 4
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562932)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MjkzMik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 2,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562935)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzNSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562936)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzNik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562933)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzMyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562937)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzNyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562934)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzNCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 4
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562887)",
+                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4Nyk=",
+                    "schema": "dms_Group",
+                    "Level": 2,
+                    "ChildIndex": 1,
+                    "Children": [
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562888)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4OCk=",
+                            "schema": "dms_Group",
+                            "Level": 3,
+                            "ChildIndex": 0,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562998)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk5OCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 0,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563006)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwNik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563007)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwNyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563003)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwMyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 2
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563004)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwNCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 3
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563001)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwMSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 4
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563002)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwMik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 5
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562999)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk5OSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 6
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563000)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwMCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 7
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563005)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwNSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 8
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563008)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwOCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 9
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563009)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAwOSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 10
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563010)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAxMCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 11
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563011)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAxMSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 12
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563012)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAxMik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 13
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563013)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzAxMyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 14
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563052)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzA1Mik=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 1,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563053)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563054)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1NCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563060)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2MCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 2
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563061)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2MSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 3
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563056)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1Nik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 4
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563055)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1NSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 5
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563059)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1OSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 6
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563057)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1Nyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 7
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563058)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA1OCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 8
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3563111)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2MzExMSk=",
+                            "schema": "dms_Group",
+                            "Level": 3,
+                            "ChildIndex": 1,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563109)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzEwOSk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 0,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563928)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzkyOCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563927)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzkyNyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563110)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExMCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 2
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563929)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzkyOSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 3
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3663737)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MzczNyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 4
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3663738)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MzczOCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 5
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563107)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzEwNyk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 1,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563921)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzkyMSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563920)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzkyMCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563108)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwOCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 2
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563922)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzkyMik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 3
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3663733)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MzczMyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 4
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3663734)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MzczNCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 5
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562889)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4OSk=",
+                            "schema": "dms_Group",
+                            "Level": 3,
+                            "ChildIndex": 2,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563112)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzExMik=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 0,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563113)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExMyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563114)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExNCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563115)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExNSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 2
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563119)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExOSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 3
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563116)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExNik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 4
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563117)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzExNyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 5
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563120)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyMCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 6
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563121)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyMSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 7
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563122)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyMik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 8
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563123)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyMyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 9
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563124)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyNCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 10
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563125)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyNSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 11
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563126)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyNik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 12
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563131)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzMSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 13
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563132)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzMik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 14
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563133)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzMyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 15
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563127)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyNyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 16
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563128)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyOCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 17
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563129)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEyOSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 18
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563130)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzMCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 19
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563142)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzE0Mik=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 1,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563143)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563144)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0NCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563145)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0NSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 2
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563149)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0OSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 3
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563146)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0Nik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 4
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563147)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0Nyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 5
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563150)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1MCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 6
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563151)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1MSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 7
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563152)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1Mik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 8
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563153)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 9
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563154)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1NCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 10
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563155)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1NSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 11
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563156)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1Nik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 12
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563157)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1Nyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 13
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563158)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1OCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 14
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563159)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE1OSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 15
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562890)",
+                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg5MCk=",
+                    "schema": "dms_Group",
+                    "Level": 2,
+                    "ChildIndex": 2,
+                    "Children": [
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3563063)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzA2Myk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 0,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563064)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563065)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563070)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563071)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563072)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 4
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563073)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 5
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563094)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 6
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563101)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwMSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 7
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563066)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 8
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563067)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 9
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563076)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 10
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563077)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 11
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563078)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 12
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563079)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 13
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563095)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 14
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563100)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwMCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 15
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563080)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 16
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563081)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 17
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563082)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 18
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563083)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 19
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563086)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 20
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563087)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 21
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563088)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 22
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563089)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 23
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563084)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 24
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563085)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA4NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 25
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563090)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 26
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563091)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 27
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563092)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 28
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563093)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 29
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563068)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 30
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563069)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA2OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 31
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563096)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 32
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563097)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 33
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563074)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 34
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563075)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA3NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 35
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563098)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 36
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563099)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzA5OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 37
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3563160)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzE2MCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 1,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563161)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563176)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563167)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563170)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563182)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE4Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 4
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563168)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 5
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563164)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 6
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563165)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 7
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563184)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE4NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 8
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563166)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 9
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563174)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 10
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563175)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 11
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563183)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE4Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 12
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563181)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE4MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 13
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563162)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 14
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563169)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE2OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 15
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563180)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE4MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 16
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563171)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 17
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563173)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 18
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563172)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 19
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563179)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE3OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 20
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3563102)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzEwMik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 2,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563103)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwMyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563105)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwNSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563104)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwNCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563106)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEwNik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562876)",
+            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg3Nik=",
+            "schema": "dms_Group",
+            "Level": 1,
+            "ChildIndex": 2,
+            "Children": [
+                {
+                    "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562878)",
+                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg3OCk=",
+                    "schema": "dms_Group",
+                    "Level": 2,
+                    "ChildIndex": 0,
+                    "Children": [
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562891)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjg5MSk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 0,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562893)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjg5Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562894)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjg5NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562892)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjg5Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562895)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjg5NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562897)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjg5Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 4
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562896)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjg5Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 5
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562877)",
+                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg3Nyk=",
+                    "schema": "dms_Group",
+                    "Level": 2,
+                    "ChildIndex": 1,
+                    "Children": [
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562880)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4MCk=",
+                            "schema": "dms_Group",
+                            "Level": 3,
+                            "ChildIndex": 0,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562991)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk5MSk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 0,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562992)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk5Mik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562993)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk5Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562898)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjg5OCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 1,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562995)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk5NSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562996)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk5Nik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3660347)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzY2MDM0Nyk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 2,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3660352)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MDM1Mik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3660353)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MDM1Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563134)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzEzNCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 3,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563135)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzNSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563136)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzNik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3660355)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzY2MDM1NSk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 4,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3660360)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MDM2MCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3660361)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MDM2MSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3563138)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MzEzOCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 5,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563139)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzEzOSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3563140)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MzE0MCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3660362)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzY2MDM2Mik=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 6,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3660363)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MDM2Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3660364)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzY2MDM2NCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562879)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg3OSk=",
+                            "schema": "dms_Group",
+                            "Level": 3,
+                            "ChildIndex": 1,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562974)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk3NCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 0,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562976)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk3Nik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562975)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk3NSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562980)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk4MCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 1,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562982)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk4Mik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562981)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk4MSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562938)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2MjkzOCk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 2,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562940)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk0MCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562939)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2MjkzOSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562983)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk4Myk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 3,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562985)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk4NSk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562984)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk4NCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562986)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk4Nik=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 4,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562988)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk4OCk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562987)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk4Nyk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/System(3562941)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk0MSk=",
+                                    "schema": "System",
+                                    "Level": 4,
+                                    "ChildIndex": 5,
+                                    "Children": [
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562943)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk0Myk=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 0
+                                        },
+                                        {
+                                            "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562942)",
+                                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk0Mik=",
+                                            "schema": "Attribute",
+                                            "Level": 5,
+                                            "ChildIndex": 1
+                                        }
+                                    ],
+                                    "Master": {
+                                        "SrcID": "2107",
+                                        "HostID": "1",
+                                        "AttributeID": "180623",
+                                        "LinkID": "2106",
+                                        "SrcValue": "Laser & Verify/Inpsect Code"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562875)",
+            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg3NSk=",
+            "schema": "dms_Group",
+            "Level": 1,
+            "ChildIndex": 3,
+            "Children": [
+                {
+                    "@id": "https://schiphol.aliconnect.nl/api/dms_Group(3562882)",
+                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9kbXNfR3JvdXAoMzU2Mjg4Mik=",
+                    "schema": "dms_Group",
+                    "Level": 2,
+                    "ChildIndex": 0,
+                    "Children": [
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3565184)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2NTE4NCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 0,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3565185)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NTE4NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3565186)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2NTE4Nik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 1,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3565187)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NTE4Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562952)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk1Mik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 2,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564692)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564693)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564694)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564695)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562954)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk1NCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 3,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564700)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwMCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564701)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwMSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564702)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwMik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564703)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwMyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562960)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk2MCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 4,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564696)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564697)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564698)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564699)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562944)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk0NCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 5,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564680)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564681)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564682)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4Mik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564683)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562964)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk2NCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 6,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564688)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4OCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564689)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564690)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5MCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564691)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY5MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562966)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk2Nik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 7,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564704)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwNCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564705)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwNSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564706)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwNik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564707)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDcwNyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562950)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk1MCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 8,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564684)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4NCk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564685)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4NSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 1
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564686)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4Nik=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 2
+                                },
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3564687)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2NDY4Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 3
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562956)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk1Nik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 9,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562957)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk1Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562958)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk1OCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 10,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562959)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk1OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562962)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk2Mik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 11,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562963)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk2Myk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562946)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk0Nik=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 12,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562947)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk0Nyk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562968)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk2OCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 13,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562969)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk2OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562970)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk3MCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 14,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562971)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk3MSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        },
+                        {
+                            "@id": "https://schiphol.aliconnect.nl/api/System(3562948)",
+                            "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9TeXN0ZW0oMzU2Mjk0OCk=",
+                            "schema": "System",
+                            "Level": 3,
+                            "ChildIndex": 15,
+                            "Children": [
+                                {
+                                    "@id": "https://schiphol.aliconnect.nl/api/Attribute(3562949)",
+                                    "Id": "aHR0cHM6Ly9zY2hpcGhvbC5hbGljb25uZWN0Lm5sL2FwaS9BdHRyaWJ1dGUoMzU2Mjk0OSk=",
+                                    "schema": "Attribute",
+                                    "Level": 4,
+                                    "ChildIndex": 0
+                                }
+                            ],
+                            "Master": {
+                                "SrcID": "2107",
+                                "HostID": "1",
+                                "AttributeID": "180623",
+                                "LinkID": "2106",
+                                "SrcValue": "Laser & Verify/Inpsect Code"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "MessageCount": 0
+}

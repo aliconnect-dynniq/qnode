@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>DMS J2 BBB</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="manifest" href="manifest.json" crossorigin="anonymous">
+	<link rel="shortcut icon" type="image/png" id="favicon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="https://aliconnect.nl/api/css/icon.css" />
+	<link rel="stylesheet" href="https://aliconnect.nl/api/css/web.css" />
+	<link rel="stylesheet" href="css/dms.gui.css" />
+	<script type="text/javascript" charset="UTF-8" src="https://aliconnect.nl/api/js/config"></script>
+	<script type="text/javascript" charset="UTF-8" src="/api/js/aim.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="/api/js/web.js"></script>
+	<script type="text/javascript" charset="UTF-8" src="js/dms.gui.js"></script>
+</head>
+<body class="col">
+	<nav class="row head">
+		<div style="width:400px;color:white;">
+			<img src="img/dynniq.png" />
+			<div id="elementTime">UTC time:</div>
+			<div id="acsmconnect">ACSM Status: Offline</div>
+		</div>
+		<div class="aco row" id="index" style="flex-wrap:wrap;">
+			<ul class="row" style="padding:0;margin:0;list-style:none;">
+				<li><div class="symbol row" Running>Geen<br /> fouten</div></li>
+				<li><div class="symbol row" CriticalFailure>Storing<br />urgent </div></li>
+				<li><div class="symbol row" NonCriticalFailure>Storing<br />niet urgent</div></li>
+				<li><div class="symbol row" Warning><span>Voorwaarschuwing<br />ongewenste stand</span></div></li>
+				<li><div class="symbol row" error="X">Storing<br />Communicatie</div></li>
+			</ul>
+		</div>
+		<div style="width:200px;text-align:center;"><img src="img/plane.png" style="" /></div>
+	</nav>
+	<div class="row aco">
+		<div class="col" style="border-right:solid 1px gray;height:100%;flex-basis:400px;">
+			<div class="row top">Navigatie</div>
+			<div class="aco col" id="folders" style="height:0px;"></div>
+		</div>
+		<div class="col aco">
+			<div class="row top">
+				<button class="abtn his" id="actueel" checked name="datatype" type="button" onclick="select(this);">Actueel</button>
+				<button class="abtn his" id="uur1" name="tijd" type="button" onclick="select(this);">1 uur</button>
+				<button class="abtn his" id="uur4" name="tijd" type="button" onclick="select(this);">4 uur</button>
+				<button class="abtn his" id="uur24" name="tijd" type="button" onclick="select(this);">24 uur</button>
+				<button class="abtn his" id="filter" type="button" onclick="select(this);">Filter</button>
+				<button class="abtn r filter" id="alles" onclick="select(this);">Alles</button>
+				<button class="abtn filter" id="alarm" checked onclick="select(this);">Alarmen</button>
+				<button class="abtn filter" id="state" checked onclick="select(this);">Statussen</button>
+				<button class="abtn filter" id="measurement" checked onclick="select(this);">Meetwaarden</button>
+			</div>
+			<div class="aco col oa" style="height:0px;">
+				<table>
+					<thead>
+						<tr><td width="10"></td><td width="160">Datum tijd</td><td width="160">Tag</td><td width="160">Tekst</td><td>Omschrijving</td><td width="160">ACSM</td></tr>
+					</thead>
+					<tbody id="list"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="loadlog1"></div>
+</body>
+</html>

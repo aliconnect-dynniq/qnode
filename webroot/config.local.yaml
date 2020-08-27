@@ -1,0 +1,1028 @@
+info:
+  title: Schiphol J2 DMS
+  description: Schiphol Baanstation J2 Data Management System
+  contact:
+    email: max.van.kampen@alicon.nl
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+config:
+  aim:
+    client_id: E90969BE-B793-4BC1-9355-031F019FC297
+    scope:
+      - name
+      - email
+      - mobile
+    auth:
+      authorizationUrl: https://login.aliconnect.nl/api/oauth2
+      tokenUrl: https://login.aliconnect.nl/api/oauth2/token
+    websocket:
+      servers:
+        - url: wss://aliconnect.nl:444
+web:
+  css:
+    rules:
+      .row.top.bar: background-color:#1B60DB; color:white;
+docs:
+  index:
+    Config:
+      request: AIM.Docs.Config.onclick
+app:
+  nav:
+    items:
+    - title: Start
+      className: start
+      href: '#/start()'
+      items:
+      - title: Favorieten
+        className: fav
+        href: '#/fav()'
+      - title: Recent
+        className: History
+        href: '#/his()'
+      - title: Gedeeld
+        className: group
+        href: '#/shared()'
+      - title: Prullenbak
+        className: trash
+        href: '#/trash()'
+definitions:
+  security: &basic_security
+    read:
+      - aim_auth:
+        - website.read
+        - admin.read
+        - 'write:admin'
+    write:
+      - aim_auth:
+        - website.readwrite
+        - admin.readwrite
+        - 'write:admin'
+components:
+  schemas:
+    System: &System
+      security: *basic_security
+      treeTitleAttributeName: Product
+      header:
+      - [Brand,Product,Model,Type,Serie,Version,Shape,Material]
+      - []
+      - [Description]
+      properties: &SystemProperties
+        Brand:
+          schema: Brand
+          label: Titel
+          title: Merk
+          filter: 1
+        Product:
+          title: Product
+          filter: 1
+          default: true
+        Model:
+          title: Model
+          filter: 1
+        Type:
+          title: Type
+          filter: 1
+        Serie:
+          title: Serie
+          filter: 1
+        Version:
+          title: Version
+          filter: 1
+        Shape:
+          title: Vorm
+          filter: 1
+        Material:
+          title: Material
+          filter: 1
+        Master:
+          title: Onderdeel van
+          label: Configuratie
+          schema: System
+        Source:
+          title: Afgeleid van
+          schema: Verkeersbuis
+        Children:
+          type: array
+    Attribute:
+      header:
+        - - Name
+        - - Title
+        - - Description
+      treeTitleAttributeName: Name
+      properties:
+        Name:
+          title: Name
+          label: Attribute
+          idname: name
+        Title:
+          title: title
+        Description:
+          title: Description
+        State:
+          title: State
+          idname: state
+        StateMessage:
+          title: StateMessage
+        # VALUES
+        # Value:title: Value idname: value type: meter attr:min: 200 max: 350 optimum: 230 low: 220 high: 280 unit: °C
+        Value:
+          title: Value
+        Quality:
+          title: Quality
+          type: radio
+          options:
+            Valid:
+              title: Valid
+              color: green
+            NotValid:
+              title: NotValid
+              color: orange
+            CommunicationError:
+              title: CommunicationError
+              color: red
+            UnInitialized:
+              title: UnInitialized
+              color: gray
+        AttributeType:
+          label: Type
+          title: Attribute type
+          type: select
+          options: &AttributeTypeOption
+            CriticalFailure:
+              title: Critical Failure
+              color: red
+            NonCriticalFailure:
+              title: Non Critical Failure
+              color: orange
+            Locking:
+              title: Locking
+              color: yellow
+            Maintenance:
+              title: Maintenance
+            Running:
+              title: Running
+              color: green
+            RunningMode:
+              title: Running mode
+            Security:
+              title: Security
+            PreWarning_1:
+              title: Pre warning 1
+            PreWarning_2:
+              title: Pre warning 2
+            PreWarning_3:
+              title: Pre warning 3
+            Measurement_1:
+              title: Measurement 1
+            Measurement_2:
+              title: Measurement 2
+            Measurement_3:
+              title: Measurement 3
+            Measurement_4:
+              title: Measurement 4
+            Measurement_5:
+              title: Measurement 5
+            MeasurementErrorFlag:
+              title: MeasurementErrorFlag
+            NotApplicable:
+              title: Not Applicable
+        ModifiedDateTime:
+          title: Modified
+        ValueType:
+          title: Value type
+          type: select
+          options:
+            text:
+              title: String
+            integer:
+              title: Integer
+            double:
+              title: Double
+            bool:
+              title: Boolean
+            date:
+              title: Date
+            time:
+              title: Time
+            datetime:
+              title: Date and time
+        # Enum:title: Options type: text options:0:title: 0=Not Active|!1=Active  1:title: 0=Active|1=Not Active
+        Enum:
+          title: Enummeration
+          type: text
+        Unit:
+          title: Unit
+          type: text
+        Calc:
+          title: Calculation function
+          type: select
+          options:
+            OnlineHours:
+              title: OnlineHours()
+        # //DisplayMin:label: Display title: Min type: number
+        # //DisplayLow:title: Low type: number
+        # //DisplayOptimum:title: Optimum type: number
+        # //DisplayHigh:title: High type: number
+        # //DisplayMax:title: Max type: number
+        Min:
+          label: Display
+          title: Min
+          type: number
+        Max:
+          title: Max
+          type: number
+        Step:
+          title: Step
+          type: number
+        Optimum:
+          title: Optimum
+          type: number
+        Low:
+          title: Low
+          type: number
+        High:
+          title: High
+          type: number
+        Hysteresis:
+          title: Hysteresis
+          type: number
+          step: 0.1
+        # //AlarmMax:label: Alarm title: Low Alarm Margin type: number step: 0.1
+        # //AlarmMin:title: Low Alarm Margin type: number step: 0.1
+        # //AlarmLow:label: Alarm title: Low Alarm Margin type: number step: 0.1
+        # //AlarmLowAttributeType:title: Attribute type type: select options: AttributeTypeOption
+        # //AlarmLowCount:title: Low Alarm Count type: number
+        # //AlarmLowWarning:title: Low Warning Margin type: number step: 0.1
+        # //AlarmLowWarningAttributeType:title: Attribute type type: select options: AttributeTypeOption
+        # //AlarmLowWarningCount:title: Low Warning Count type: number
+        # //AlarmHighWarning:title: High Warning Margin type: number step: 0.1
+        # //AlarmHighWarningAttributeType:title: Attribute type type: select options: AttributeTypeOption
+        # //AlarmHighWarningCount:title: High Warning Count type: number
+        # //AlarmHigh:title: High Alarm Margin type: number step: 0.1
+        # //AlarmHighAttributeType:title: Attribute type type: select options: AttributeTypeOption
+        # //AlarmHighCount:title: High Alarm Count type: number
+        # //AlarmHysteresis:title: Hysteresis type: number step: 0.1
+    ControlIO:
+      header:
+        - - Name
+        - - Title
+        - - Description
+      treeTitleAttributeName: Name
+      properties:
+        SignalType:
+          label: Control IO
+          title: Type
+          type: select
+          options:
+            Text:
+              title: String
+            D:
+              title: Digital
+              color: blue
+            A:
+              title: Analog
+              color: yellow
+            Bool:
+              title: Boolean
+            SByte:
+              title: Signed Byte
+            UBbyte:
+              title: Unsigned Byte
+            SInt:
+              title: Signed Integer
+            Uint:
+              title: Unsigned Integer
+            SDInt:
+              title: Signed Double Integer
+            UDInt:
+              title: Unsigned Double Integer
+            Float:
+              title: Float
+            Double:
+              title: Double
+
+            Date:
+              title: Date
+            Time:
+              title: Time
+            Datetime:
+              title: Date and time
+            Array:
+              title: Array
+            Object:
+              title: Object
+            '':
+              title: Not applicable
+
+        Permission:
+          title: Permission
+          type: radio
+          options:
+            rw: Read Write
+            r: Read Only
+            w: Write Only
+        Direction:
+          title: Direction (vervalt)
+          type: radio
+          options:
+            I: Input
+            O: Output
+        Tag:
+          title: TAG
+          idname: tag
+          default: 1
+
+        Value:
+          title: Value
+          idname: value
+        Quality:
+          title: Quality
+          type: radio
+          options:
+            Valid:
+              title: Valid
+              color: green
+            NotValid:
+              title: NotValid
+              color: orange
+              CommunicationError:
+                title: CommunicationError
+                color: red
+              UnInitialized:
+                title: UnInitialized
+                color: gray
+
+        ReadAddress:
+          label: Modbus
+          title: Read Address
+          type: number
+        # //ReadAddressLength:title: Read Address Length defaultvalue: 1 type: number
+        ReadAddressBit:
+          title: Bit number
+          type: number
+
+        OID:
+          label: SNMP
+          title: OID
+        SNMPType:
+          title: SNMP Type
+        # //RANGE
+        MinValidValue:
+          label: Range
+          title: Min Valid Value
+          type: number
+        MaxValidValue:
+          title: Max Valid Value
+          type: number
+        Deadband:
+          title: Deadband
+          type: number
+        MinRawValue:
+          label: Conversion
+          title: Min Raw Value
+          type: number
+        MaxRawValue:
+          title: Max Raw Value
+          type: number
+        MinEngValue:
+          title: Min Engineering Value
+          type: number
+        MaxEngValue:
+          title: Max Engineering Value
+          type: number
+    Device:
+      className: device
+      header:
+        - - Product
+        - - IPAddress
+          - Port
+        - - ReadAddress
+            ReadLength
+            Community
+      treeTitleAttributeName: Product
+      properties:
+        # Product:
+        #   label: Device
+        #   title: Name
+        #   idname: name
+        Master:
+          label: Device
+          title: Product
+          idname: name
+        IPAddress:
+          label: Network
+          title: IP address
+        Port:
+          title: Port
+        PollInterval:
+          title: Poll Interval
+          type: number
+          unit: ms
+        ReadAddress:
+          label: Modbus
+          title: Read Address
+        ReadLength:
+          title: Read Length
+        Community:
+          label: SNMP
+          title: Community
+    Product:
+      btns: [msg,fav,send,clone,edit,show3d,network,printmenu]
+      header:
+        - [Merk,Product]
+        - [Merk]
+        - [Description]
+      treeTitleAttributeName: Product
+      properties:
+        State:
+          label: Product
+          title: State
+          type: radio
+          filter: 1
+          options:
+            draft:
+              title: Draft
+              color: lightblue
+            concept:
+              title: Concept
+              color: yellow
+            published:
+              title: Published
+              color: green
+            replaced:
+              title: Vervangen
+              color: orange
+            deleted:
+              title: Deleted
+              color: '#ccc'
+        IsPublic:
+          title: Publish
+          type: checkbox
+        Source:
+          title: Afgeleid van
+          schema: Product
+        SerialNumber:
+          title: Serial Number
+        Merk:
+          title: Merk
+          classID: 1016
+        Product:
+          title: Product
+          default: 1
+        Type:
+          title: Type
+        Soort:
+          title: Soort
+        Serie:
+          title: Serie
+        Version:
+          title: Versie
+        Unit:
+          title: Eenheid
+        Content:
+          title: Inhoud
+        ContentUnit:
+          title: Inhoud eenheid
+        ArtNr:
+          find: 1
+          title: Product Code
+        SupplierArtDescription:
+          title: Product omschrijving
+        SupplierWebTitle:
+          title: Product titel
+        ExtraTitle:
+          title: Extra titel
+        Manufacturer:
+          title: Fabrikant
+          classID: 1002
+        Productgroep:
+          title: Productgroep
+        SupplierProductUrl:
+          title: Product pagina
+          type: url
+        AbisTekst:
+          title: AbisTekst
+          find: 1
+        Toepassing:
+          title: Toepassing
+        Oms:
+          title: Extra tekst
+        Description:
+          title: Inleiding
+          type: textarea
+        BodyHTML:
+          title: Hoofdtekst
+          type: div
+        Options:
+          title: Opties
+          type: options
+        filterproperties:
+          type: textarea
+          title: Filter eigenschappen
+        properties:
+          type: textarea
+          title: Extra eigenschappen
+        EAN:
+          title: EAN
+        Btw:
+          title: BTW soort
+          options:
+            - hoog
+            - laag
+          default: hoog
+        Weight:
+          title: Eenheid gewicht
+          unit: kg
+        cp:
+          title: Catalogus prijs
+          type: number
+          format: currency
+          step: 0.01
+
+        Unit1:
+          label: Artikel
+          title: Besteleenheid
+          filter: 1
+        Unit1Quant:
+          title: Besteleenheid aantal
+          type: number
+          step: 1
+          filter: 1
+        # //Unit2:title: 2e besteleenheid
+        # //Unit2Quant:step: 1 type: number title: 2e besteleenheid aantal
+
+        sd:
+          title: Verkoop korting
+          lv: 1
+          unit: '%'
+        sp:
+          title: Verkoop prijs
+          format: currency
+          readonly: 1
+          get(): |
+            var srcItem = api.items[this.srcID] || {}
+          values(): |
+            return Number(this.values.cp || srcItem.values.cp) * (100 - Number(this.values.sd || srcItem.values.sd || 0)) / 100
+        cd:
+          title: Klant korting
+          lv: 1
+          unit: '%'
+        pd:
+          title: Inkoop korting
+          unit: '%'
+        pp:
+          title: Inkoop prijs
+          readonly: 1
+          format: currency
+          get(): |
+            var srcItem = api.items[this.srcID] || {}
+          values(): |
+            return (this.values.cp || srcItem.values.cp) * (100 - Number(this.values.pd || srcItem.values.pd || 0)) / 100
+        Supplier:
+          title: Leverancier
+          classID: 1002
+        Stock:
+          step: 1
+          type: number
+          title: Op voorraad
+        Loc:
+          title: Locatie
+        minStock:
+          step: 1
+          type: number
+          title: Minimale voorraad
+        orderQuant:
+          step: 1
+          type: number
+          title: Bestel hoeveelheid
+        id:
+          title: Product ID
+          label: aliconnect
+          readOnly: true
+        IP:
+          label: Network
+          title: IP adress
+        Port:
+          title: Port
+        Children:
+          type: array
+    dms_System:
+      treeTitleAttributeName: Product
+      header:
+      - [Brand,Product,Model,Type,Serie,Version,Shape,Material,Quality,Color,Purpose,Unit,Content,ContentUnit,PackageUnit,PackageQuantity]
+      - []
+      - [Description]
+      properties:
+        Manufacturer:
+          title: Manufacturer
+          label: title
+          schema: Company
+        Brand:
+          schema: Brand
+          title: Merk
+          filter: 1
+        Product:
+          title: Product
+          filter: 1
+          default: true
+        System:
+          title: Related systems
+        Name:
+          title: Name
+        Title:
+          title: Title
+        Subject:
+          title: Subject
+        Model:
+          title: Model
+          filter: 1
+        Type:
+          title: Type
+          filter: 1
+        Serie:
+          title: Serie
+          filter: 1
+        Version:
+          title: Version
+          filter: 1
+        Shape:
+          title: Vorm
+          filter: 1
+        Material:
+          title: Material
+          filter: 1
+        Quality:
+          title: Quality
+          filter: 1
+        Color:
+          title: Kleur
+          filter: 1
+        Purpose:
+          title: Ten behoeve van
+          filter: 1
+        Unit:
+          title: Eenheid
+          filter: 1
+        Content:
+          title: Inhoud
+          filter: 1
+        ContentUnit:
+          title: Inhoud eenheid
+          filter: 1
+          enum:
+          - liter
+          - meter
+          - mm
+          - nano
+          - mu
+        Description:
+          title: Omschrijving
+          label: Toelichting
+          type: textarea
+        BodyHTML:
+          title: Pagina tekst
+          type: div
+        Remark:
+          title: Opmerking
+          type: textarea
+        ProductTitle:
+          title: Product titel
+        keyname:
+          title: Keyname
+          idname: keyname
+        tag:
+          title: Label
+          idname: tag
+        Subsystem:
+          title: Subsystem
+          label: Subsystems
+          type: array
+          min: 0
+          max: 100
+          schema: System
+        Dimensions:
+          label: Afmetingen
+          title: Afmeting
+          filter: 1
+        Length:
+          title: Length
+          type: number
+          step: 10
+          unit: mm
+        Width:
+          title: Width
+          type: number
+          step: 10
+          unit: mm
+        Height:
+          title: Height
+          type: number
+          step: 10
+          unit: mm
+        Weight:
+          title: Weight
+          unit: kg
+        PackageUnit:
+          title: Verpakking eenheid
+          label: Verpakking
+          filter: 1
+        PackageQuantity:
+          title: Verpakking aantal
+          filter: 1
+          type: number
+          step: 1
+        PackageLength:
+          title: Length
+          type: number
+          step: 10
+          unit: mm
+        PackageWidth:
+          title: Width
+          type: number
+          step: 10
+          unit: mm
+        PackageHeight:
+          title: Height
+          type: number
+          step: 10
+          unit: mm
+        PackageWeight:
+          title: Weight
+          unit: kg
+        EAN:
+          title: EAN
+        PowerKVA:
+          title: Power
+          label: Verbruik
+          type: number
+          step: 0.100000
+          unit: kVA
+        PowerFuse:
+          title: Fuse
+          type: number
+          step: 1
+          unit: Amp
+        PowerConnection:
+          title: Power connection
+          type: textarea
+        Air:
+          title: Air
+          type: number
+          step: 0.100000
+          unit: NL/MIN 6-8 BAR (dry air)
+        AirConnection:
+          title: Air connection
+          type: textarea
+        Dewpoint:
+          title: Dewpoint
+          type: number
+          step: 0.100000
+          unit: "\xB0C"
+        Water:
+          title: Water
+          type: number
+          step: 0.100000
+          unit: L/MIN
+        WaterConnection:
+          title: Water connection
+          type: textarea
+        StockLocation:
+          title: Locatie
+          label: Magazijn
+        Stock:
+          title: Voorraad
+          step: 1
+          type: number
+        MinimumStock:
+          title: Minimum voorraad
+          step: 1
+          type: number
+        StartOfStock:
+          title: Begin voorraad
+          step: 1
+          type: number
+        CatalogPrice:
+          title: Catalogus prijs
+          label: Verkoop
+          type: number
+          format: currency
+          step: 0.010000
+        SalesDiscount:
+          title: Verkoop korting
+          unit: '%'
+        SalesMargin:
+          title: Verkoop marge
+          unit: '%'
+        SalesPrice:
+          title: Verkoop prijs
+          readonly: 1
+          format: currency
+          type: number
+          step: 0.010000
+          get(): >
+              var srcItem = api.items[this.srcID] || { values: {} }
+              return Number(this.values.cp || srcItem.values.cp) * (100 - Number(this.values.sd || srcItem.values.sd || 0)) / 100
+        CustomerDiscount:
+          title: Klant korting
+          unit: '%'
+        FAT:
+          default: hoog
+          title: BTW soort, invoern in FAT
+          options:
+          - hoog
+          - laag
+        FixedCostPrice:
+          title: Kostprijs
+          lv: 1
+          type: number
+          step: 0.010000
+        Supplier:
+          title: Leverancier
+          label: Inkoop
+          schema: company
+        PurchaseDiscount:
+          title: Inkoop korting
+          unit: '%'
+        PurchasePrice:
+          title: Inkoop prijs
+          readonly: 1
+          format: currency
+          get(): >
+              var srcItem = api.items[this.srcID] || { values: {} }
+              return (this.values.cp || srcItem.values.cp) * (100 - Number(this.values.pd || srcItem.values.pd || 0)) / 100
+        OrderQuant:
+          title: Inkoop hoeveelheid
+          step: 1
+          type: number
+        CAD:
+          title: CAD model
+          label: CAD model
+          type: json1
+        ObjectChildren:
+          title: CAD onderdelen
+          type: json1
+        PosX:
+          label: Position
+          title: Positie X
+        PosY:
+          title: Positie Y
+        PosZ:
+          title: Positie Z
+        RotX:
+          title: Rotatie X-as
+        RotY:
+          title: Rotatie Y-as
+        RotZ:
+          title: Rotatie Z-as
+        State:
+          title: State
+          label: State
+          filter: 1
+          options:
+            research:
+              title: Research
+              color: lightblue
+            design:
+              title: Design
+              color: lightblue
+            draft:
+              title: Draft
+              color: lightblue
+            concept:
+              title: Concept
+              color: yellow
+            final:
+              title: Final
+              color: yellow
+            published:
+              title: Published
+              color: green
+            sales:
+              title: Sales
+              color: orange
+            ordered:
+              title: Ordered
+              color: orange
+            build:
+              title: Build
+              color: yellow
+            deleted:
+              title: Deleted
+              color: black
+            deprecated:
+              title: Deprecated
+              color: orange
+            replaced:
+              title: Replaced
+              color: orange
+            aborted:
+              title: Aborted
+              color: green
+            stopped:
+              title: Stopped
+              color: green
+            idle:
+              title: Idle
+              color: green
+            running:
+              title: Running
+              color: green
+            complete:
+              title: Complete
+              color: green
+            suspended:
+              title: Suspended
+              color: green
+            held:
+              title: Held
+              color: green
+            aborting:
+              title: Aborting
+              color: green
+            stopping:
+              title: Stopping
+              color: green
+            clearing:
+              title: Clearing
+              color: green
+            resetting:
+              title: Resetting
+              color: green
+            starting:
+              title: Starting
+              color: green
+            completing:
+              title: Completing
+              color: green
+            suspending:
+              title: Suspending
+              color: green
+            unsuspending:
+              title: Unsuspending
+              color: green
+            holding:
+              title: Holding
+              color: green
+            unholding:
+              title: Unholding
+              color: green
+        WWW:
+          title: Deze pagina tonen op internet
+          type: checkbox
+          idname: IsPublic
+        News:
+          title: Deze pagina opnemen in nieuwsberichten
+          type: checkbox
+        CreatedDT:
+          title: Created
+          label: Planning
+          type: date
+          idname: createdDT
+        StartDateTime:
+          title: Start
+          type: date
+          idname: StartDateTime
+        EndDateTime:
+          title: Deadline
+          type: date
+          idname: EndDateTime
+        FinishDateTime:
+          title: Completed
+          type: date
+          idname: FinishDateTime
+        Master:
+          title: Onderdeel van
+          label: Referenties
+          schema: system
+          idname: masterID
+          typeID: 11
+        Source:
+          title: Afgeleid van
+          schema: system
+          idname: srcID
+        Layout:
+          title: Layout
+          schema: layout
+        SystemFolder:
+          title: Network folder
+        TagName:
+          title: TagName
+        SofonNr:
+          title: Sofon nr
+        ProjectNr:
+          title: Project nr
+          schema: project
+        cspnummer:
+          title: CSP nummer
+        Children:
+          type: array
+    dms_Location:
+      properties:
+        Children:
+          type: array
+    dms_Group:
+      properties:
+        Children:
+          type: array

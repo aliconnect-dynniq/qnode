@@ -1,0 +1,14 @@
+{
+  "config": {
+    "debug": true,
+    "http": {
+      "port": 9000
+    },
+    "ws": {
+      "url": "wss://aliconnect.nl:444"
+    },
+    "aim": {
+      "url": "https://schiphol.aliconnect.nl/j2/dms/webroot/api"
+    }
+  }
+}
