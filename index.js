@@ -1,4 +1,4 @@
-require('@aliconnect/node');
+require('@aliconnect/api');
 
 // require('@aliconnect/node/lib/js/def.js');
 // require('./webroot/js/api.js');

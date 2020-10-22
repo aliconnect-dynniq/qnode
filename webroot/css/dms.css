@@ -1,8 +1,0 @@
-﻿.symbol{
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-position:center;
-}
-.symbol.temperatuur_gemeten {
-	background-image: url('../../../../../../../shared/img/svg/test1.svg');
-}
