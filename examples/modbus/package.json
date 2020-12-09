@@ -1,0 +1,14 @@
+{
+  "name": "dms",
+  "version": "0.0.0",
+  "description": "",
+  "main": "modbus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max van Kampen",
+  "license": "ISC",
+  "dependencies": {
+    "@aliconnect/qnode": "*"
+  }
+}

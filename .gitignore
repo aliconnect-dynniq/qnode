@@ -11,6 +11,9 @@ _**
 
 *test*
 
+**data*.json
+*[a-zA-Z][0-9].*
+
 **dcu**
 **~**
 **sitemap**

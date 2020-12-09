@@ -1,0 +1,10 @@
+{
+  "config": {
+    "debug": true,
+    "aim": {
+      "servers": [
+        {"url": "https://schiphol.aliconnect.nl/api"}
+      ]
+    }
+  }
+}

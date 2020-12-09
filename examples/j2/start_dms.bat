@@ -1,0 +1,4 @@
+@call start_lib dms 9001^
+ --load=data^
+ --config-aim-websocket-url=wss://aliconnect.nl:444^
+ --auth-access_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJzaGEyNTYifQ.eyJpc3MiOiJzY2hpcGhvbC5hbGljb25uZWN0Lm5sIiwic2NvcGUiOiJ3ZWJzaXRlLnJlYWQgbmFtZSBlbWFpbCIsInN1YiI6IjM1NDk5ODMiLCJhdWQiOiIzNjY0MjUxIiwiZXhwIjoxNjA1Mjc1NjE0LCJpYXQiOjE2MDUxODkyMTR9.QWrHKdlit8gs6DG5EZQqbQjTx2uVn8_FPApaLSCCQEw
