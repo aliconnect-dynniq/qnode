@@ -1,8 +1,24 @@
 {
+  "info": {
+    "name": "QNode DMS"
+  },
   "debug": true,
-  "config": {
-    "oauth2": {
-      "url": "https://login.aliconnect.nl/api/oauth2"
+  "authProvider": {
+    "auth": {
+      "scope": ["name", "email"],
+      "authorizationUrl": "https:/login.aliconnect.nl/api/oauth2",
+      "tokenUrl": "https://login.aliconnect.nl/api/token",
+      "clientId": "c52aba40-11fe-4400-90b9-cee5bda2c5aa"
     }
+  },
+  "client": {
+    "servers": [
+      {
+        "url": "https://schiphol.aliconnect.nl/api"
+      }
+    ]
+  },
+  "ws": {
+    "url": "wss://aliconnect.nl:444"
   }
 }

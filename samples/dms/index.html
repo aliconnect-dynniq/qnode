@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>QNode Sample DMS</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link  href="../../../../api/src/css/web.css" rel="stylesheet"/>
+  <link  href="../../../../api/src/css/icon.css" rel="stylesheet"/>
+  <script src="../../../../api/src/js/aim.js"></script>
+  <script src="../../../../api/src/js/web.js"></script>
+  <script>
+  const openWindows = new Map()
+  function popup() {
+    openWindows.set(this.target, window.open(this.href, this.target, this.getAttribute('size') || 'width=600, height=800'));
+    return false;
+  }
+  aim().on('load', event => {
+    aim(document.body).append(
+      aim('h1').text('QNode DMS'),
+      aim('div').class('col').append(
+        aim('a')
+        .text('Schiphol Baanstation Demo GUI')
+        .href("webroot/?--authProvider-auth-api_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJzaGEyNTYifQ.eyJpc3MiOiJzY2hpcGhvbC5hbGljb25uZWN0Lm5sIiwic2NvcGUiOiJ3ZWJzaXRlLnJlYWQgbmFtZSBlbWFpbCIsInN1YiI6IjM1NDk5ODMiLCJhdWQiOiIzNjY0MjUxIiwiZXhwIjoxNjA1Mjc1NjE0LCJpYXQiOjE2MDUxODkyMTR9.QWrHKdlit8gs6DG5EZQqbQjTx2uVn8_FPApaLSCCQEw")
+        .onclick(popup).attr('size', 'width=1685, height=1055')
+        .target('gui'),
+        aim('a')
+        .text('Schiphol Baanstation J2 GUI')
+        .href("webroot/?--authProvider-auth-api_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJzaGEyNTYifQ.eyJpc3MiOiJzY2hpcGhvbC5hbGljb25uZWN0Lm5sIiwic2NvcGUiOiJ3ZWJzaXRlLnJlYWQgbmFtZSBlbWFpbCIsInN1YiI6IjM1NDk5ODMiLCJhdWQiOiIzNjY0MjUxIiwiZXhwIjoxNjA1Mjc1NjE0LCJpYXQiOjE2MDUxODkyMTR9.QWrHKdlit8gs6DG5EZQqbQjTx2uVn8_FPApaLSCCQEw")
+        .onclick(popup).attr('size', 'width=1685, height=1055')
+        .target('gui'),
+        aim('a')
+        .text('Schiphol Baanstation T GUI')
+        .href("webroot/?--authProvider-auth-api_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJzaGEyNTYifQ.eyJpc3MiOiJzY2hpcGhvbC5hbGljb25uZWN0Lm5sIiwic2NvcGUiOiJ3ZWJzaXRlLnJlYWQgbmFtZSBlbWFpbCIsInN1YiI6IjM1NDk5ODMiLCJhdWQiOiIzNjY0MjUxIiwiZXhwIjoxNjA1Mjc1NjE0LCJpYXQiOjE2MDUxODkyMTR9.QWrHKdlit8gs6DG5EZQqbQjTx2uVn8_FPApaLSCCQEw")
+        .onclick(popup).attr('size', 'width=1685, height=1055')
+        .target('gui'),
+        aim('a')
+        .text('Schiphol Baanstation O GUI')
+        .href("webroot/?--authProvider-auth-api_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJzaGEyNTYifQ.eyJpc3MiOiJzY2hpcGhvbC5hbGljb25uZWN0Lm5sIiwic2NvcGUiOiJ3ZWJzaXRlLnJlYWQgbmFtZSBlbWFpbCIsInN1YiI6IjM1NDk5ODMiLCJhdWQiOiIzNjY0MjUxIiwiZXhwIjoxNjA1Mjc1NjE0LCJpYXQiOjE2MDUxODkyMTR9.QWrHKdlit8gs6DG5EZQqbQjTx2uVn8_FPApaLSCCQEw")
+        .onclick(popup).attr('size', 'width=1685, height=1055')
+        .target('gui'),
+        aim('a')
+        .text('Schiphol Baanstation Node GUI (localhost:9000)')
+        .href("http://localhost:9000/")
+        .onclick(popup).attr('size', 'width=1685, height=1055')
+        .target('gui'),
+        aim('a')
+        .text('Schiphol Baanstation Node')
+        .href("node.html?--authProvider-auth-api_key=eyJ0eXAiOiJKV1QiLCJhbGciOiJzaGEyNTYifQ.eyJpc3MiOiJyd3MuYWxpY29ubmVjdC5ubCIsInNjb3BlIjoid2Vic2l0ZS5yZWFkIG5hbWUgZW1haWwiLCJzdWIiOiIyODA0MzQyIiwiYXVkIjoiMzY2NjEzNCIsImV4cCI6MTYwNTM2Mjk3MCwiaWF0IjoxNjA1Mjc2NTcwfQ.UKHp3WPoh5DtXvZBG9D3TNpLeh6v17rD1kfJSRBWqxU")
+        .onclick(popup).attr('size', 'width=600, height=400')
+        .target('dms1'),
+      ),
+      aim('button')
+      .text('close')
+      .onclick(event => openWindows.forEach(win => win.close()))
+    )
+  })
+  </script>
+</head>
+<body></body>
+</html>

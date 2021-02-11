@@ -5,7 +5,7 @@ if exist node_modules (
 ) else (
   SET LIB=..\..\lib
 )
-IF EXIST %LIB%\%1\webroot (
+IF EXIST %LIB%\%1\webroot1 (
   START "" %BROWSER% --app="http://localhost:%2"^
    --use-fake-ui-for-media-stream^
    --window-position=0,0^
@@ -15,4 +15,11 @@ IF EXIST %LIB%\%1\webroot (
    --disable-application-cache
 )
 
+:node
+cls
+node %LIB%\%1 --config-http-port=%2 %3 %4 %5 %6 %7 %8 %9
+pause
+goto node
+
+:start
 START "" node %LIB%\%1 --config-http-port=%2 %3 %4 %5 %6 %7 %8 %9
